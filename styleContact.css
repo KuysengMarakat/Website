@@ -1,0 +1,79 @@
+h2{
+    color :#000000;
+}
+
+.myDiv {
+  border: 5px outset black;
+  background-color: #00ddff;
+  text-align: center;
+  padding: 10px;  /*space between word*/
+  margin-bottom: 20px;
+  /* display : flex; */
+  border-radius: 15px;   /* the shape of of the border */
+}
+
+table{
+    border-collapse: collapse;
+    width: 40%;
+    margin: 30px auto;
+    box-shadow: 0 2px 10px;
+}
+
+th, td{
+    border: 2px solid black;
+    padding: 8px 12px;
+    text-align: left;
+    a{
+        text-align: center;
+    }
+}
+th{
+    background-color: #2c455e;
+    color: white;
+    text-align: center;
+}
+
+td:first-child{
+    font-weight: bold;
+    background-color: #f8f8f8;
+    width: 20%;
+}
+
+.p-row td:last-child{
+    text-align: center;
+}
+
+.f-row td:last-child,
+.y-row td:last-child,
+.i-row td:last-child /* this is for the items in the middle*/
+{
+    text-align: center; 
+}
+
+.f-row td:last-child i,
+.y-row td:last-child i,
+.i-row td:last-child i
+{
+    text-align: center;
+    border: 1.5px solid black;
+    padding: 5px;
+    border-radius: 25%;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.f-row td:last-child i:hover,
+.y-row td:last-child i:hover,
+.i-row td:last-child i:hover {
+    background-color: #ddd;
+    border-color: #000;
+}
+
+
+a{
+    color: blue;
+    text-decoration: underline;
+}

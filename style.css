@@ -1,0 +1,68 @@
+/* h2{
+    text-align : center;
+    color :#9cc144;
+} */
+
+.myDiv{
+  h2{
+    color:#e1ff00;
+  }
+  text-align : center;
+  color: #00ffee;
+}
+
+.myDiv {
+  border: 5px outset black;
+  background-color: #6944c1;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: darkslateblue;
+}
+
+#demo {
+  font-weight: bold;
+  color: green;
+}
+
+table{
+    border-collapse: collapse;
+    width: 40%;
+    margin-top: 10px;
+    box-shadow: 0 2px 15px;
+}
+
+th, td{
+    border: 1px solid #333;
+    padding: 8px 12px;
+    text-align: left;
+} 
+
+th{
+    color: darkmagenta;
+    /* box-shadow: 0 2px 20px; */
+}
+/* solid is the box line. you can see the box appear.
+padding is the space between the word. */
+
+.food{
+  color : green;
+}
+
+#catImg{ 
+  float : right;
+  float : top;
+}
+
+a{
+    color: blue;
+    text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+

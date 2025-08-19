@@ -1,9 +1,0 @@
-#backgroundimg{
-   height: 100vh;
-   background: url("image.jpg");
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-   padding: 0 20px;
-}
